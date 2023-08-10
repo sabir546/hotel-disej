@@ -82,7 +82,7 @@ color: white;
  #page1 svg{
     position: fixed;
     scale: .28;
-    fill: #434b34;
+    fill: #434B34;
     margin-top: -90px;
     z-index: 99;
  }
@@ -111,7 +111,7 @@ color: white;
     font-size: 5.5vw;
     line-height: 6vw;
     font-weight: 100;
-    color: #2c3a13;
+    color: #434B34;
     text-align: center;
 
  }
@@ -467,10 +467,14 @@ transform: scale(0.6)translateX(-84%) translateY(34%);
 
  }
  .swiper-pagination{
-   position: absolute;
+   position: relative;
+   width: 5%;
+   height: 3%;
+   left: 15%;
+   top: 5%;
+   font-size: 18px;
+   background-color: darkorchid;
    
-   right: 5vw;
-   /* transform: translate(-50%, -50%); */
  }
  .swiper-slide-active img{
    transform: scale(1)translateX(0) translateY(0);
@@ -684,7 +688,6 @@ font-family:DM Sans ;
    #page6 #svg7 {
       position: absolute;
       margin-top: -4%;
-
       width:300vw;
       fill:#03364F;
       /* rotate: 180deg; */
@@ -710,3 +713,651 @@ font-family:DM Sans ;
          width: 100%;
          background-color: #ffff;
        }
+        
+
+       
+    #page7 #text4{
+      padding-top: 37vw;
+         align-items: center;
+         justify-content: center;
+   
+      }
+      #page7 #text4 h2{
+         position: relative;
+         font-family:PP Woodland;
+         font-size: 5.5vw;
+         line-height: 6vw;
+         font-weight: 100;
+         /* color: #043F5D; */
+         color: #E3E3C4;
+         text-align: center;
+     
+      }
+      #page7 #text4 h2 span{
+         font-family:PP Woodland;
+     
+      }
+      #photoes{
+         position: relative;
+         height: 100vh;
+         width: 100%;
+         margin-top: 10vw;
+         /* background-color: darkorange; */
+         display: flex;
+         justify-content:space-between;
+         align-items: center;
+         
+      }
+      .left-img{
+            position: relative;
+            margin-left: -4%;
+            height: 100%;
+            width: 50%;
+            border-radius: 20px;
+            
+            background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/230/ALH_Odisej_outsidepool_01-scaled-600x0.jpg);
+            background-size: cover;
+            background-position: center;
+            transform: translateX(0%);
+            z-index: 1;
+            
+         }
+         .right-img{
+         position: relative;
+            height: 100%;
+            margin-right: -4%;
+          border-radius: 20px;
+          width: 50%; 
+          background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/388/alh-img-2-600x0.jpeg);
+          background-size: cover;
+          transform: translateX(0%);
+            background-position: center;
+         z-index: 1;
+         }
+         
+      .center{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50% ,-50%);
+         height: 100%;
+         border-radius: 20px;
+         width: 43%;
+         display: inline-block;
+         /* background-color: aqua; */
+         padding: 5vw 5vw;
+      /* display: none; */
+
+      }
+      .center h2{
+         margin-top: 3.8vw;
+         font-size: 5.6vw;
+         font-weight: 200;
+         line-height: 5.5vw;
+         text-align: center;
+         color: #434B34;
+         /* padding: -5vw -5vw; */
+/* background-color: #27c315; */
+         font-family:PP Woodland;
+
+      }
+      .center h5{
+         margin-top: 2vw;
+         font-size: 1.2vw;
+         font-weight: 500;
+         text-align: center;
+         color: #434B34;
+         font-family:DM Sans;
+         padding: 1.8vw 2.1vw;
+
+         /* background-color: red; */
+      }
+      
+  .center #arrow4{
+   position: relative;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+   margin-top: 5vw;
+    /* background-color: #34a470; */
+
+}
+
+.center #arrow4 i{
+   margin-left: 1.7vw;
+   font-size: 18px;
+  color: #fff;
+   border: 1px solid black;
+   border: none;
+   padding: 2.8px 15px;
+   border-radius: 20px;
+   background-color: #5B6647;
+} 
+.center #arrow4 h4{
+   font-family:DM Sans ;
+   font-weight:500;
+   font-size: 23px;
+   color: #434B34;
+
+   
+}
+
+#page8{
+   position: relative;
+   min-height: 150vh;
+   width: 100%;
+/* background-color: #7ab8f2; */
+}
+   
+#page8 img{
+height: 100vh;
+width: 100%;
+object-fit: cover;
+}
+
+
+#page8 #svg9 {
+   position: absolute;
+bottom:0%;
+   width:300vw;
+   fill:#5B6647;
+   rotate: 180deg;
+   left: -50vw;
+   height: 100vh;
+    z-index: 99;
+ }
+ 
+ #page8 #svg10 {
+   position: absolute;
+   bottom: -1%;
+   /* margin-bottom: 20%; */
+   width:300vw;
+   fill:#E3E3C4;
+   rotate: 180deg;
+   left: -51vw;
+   height:100vh;
+    z-index: 1;
+ }
+ #page9{
+   margin-top: -5%;
+   min-height: 150vh;
+/* z-index: 2; */
+width: 100;
+   background-color:#5B6647;
+ }
+  #page9 #svg99{
+   height:150vh;
+   width: 150vw;
+   position:absolute;
+   
+   fill: #5B6647;
+   z-index: 1;
+}
+ 
+ #page9 #text4{
+   padding-top: 1vw;
+      align-items: center;
+      justify-content: center;
+z-index: 2;
+
+
+   }
+   #page9 #text4 h2{
+      position: relative;
+      font-family:PP Woodland;
+      font-size: 5.5vw;
+      line-height: 6vw;
+      font-weight: 100;
+      color:#fff;
+      z-index: 2;
+      text-align: center;
+  
+   }
+   #page9 #text4 h2 span{
+      font-family:PP Woodland;
+  
+   }
+   #page9 p{
+      position: relative;
+      margin-left: 30%;
+      width: 40%;
+      padding-top: 3vw;
+      font-size: 1.2vw;
+      font-weight: 400;
+z-index:6 ;
+
+      text-align: center;
+      font-family:DM Sans;
+      color: hsl(0, 0%, 100%);
+      padding-bottom: 7vw;
+   }
+   #content2{
+      position: relative;
+z-index: 2;
+
+      margin-top: -2px;
+    height: 100vh;
+    width: 100%;
+    background-color: #5B6647;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   #pprt11{
+      position: relative;
+      height: 100%;
+
+      width: 31.5%;
+      /* background-color: darkmagenta; */
+      display: flex;
+      align-items: end;
+      justify-content: flex-end;
+   }
+   
+#img11{ position: relative;
+   height: 53%;
+   width: 24vw;
+   border-radius: 25px;
+   background-size: cover;
+   background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/326/ALH_Hotel_Supetar_Cavtat_Pool26-1440x0.jpg);
+}
+
+   #pprt22{
+      height: 100%;
+      width: 35%;
+      z-index: 2;
+
+      /* background-color: rgb(0, 139, 88); */
+   }
+   #img22{
+      height: 100%;
+      width: 97%;
+      background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/324/ALH_Hotel_Supetar_Cavtat_Pool18-1440x0.jpg);
+      border-radius: 20px;
+      background-size: cover;
+      margin: 0 .6vw;
+   }
+   #box{
+   height: 36%;
+   width: 20vw;
+   border-radius: 19px;
+   background-color:hwb(82 16% 73% / 0.939);
+   margin: 1.5vw 2vw 0vw 7vw ;
+z-index: 2;
+
+   }
+   #box>h5{
+      color: #fff;
+      font-weight: 100;
+      padding: 2vw 2.5vw;
+      font-size: 15px;
+      font-family:DM Sans;
+z-index: 2;
+
+   }
+   #box button{
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 8.7px 23px;
+      border-radius: 17px;
+      border: none;
+      background-color: #5B6647;
+
+      margin: 3vw 5vw 1vw 2.5vw;
+   }
+   #pprt33{
+      height: 100%;
+      width: 31.5%;
+      /* background-color: rgb(28, 0, 139); */
+      z-index: 2;
+
+    
+   }
+   #img33{
+      height: 53%;
+      width: 24vw;
+      background-size: cover;
+      background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/322/ALH_Hotel_Supetar_Cavtat_Pool17-1440x0.jpg);
+      border-radius: 25px;
+
+   }
+
+        
+  #page9 #arrow5{
+   position: relative;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+z-index: 999;
+/* margin-top:10vw ;
+padding-bottom:5vw ; */
+padding: 9vw 0vw 12vw 0vw;
+    
+}
+
+#page9 #arrow5 i{
+   margin-left: 1.7vw;
+   font-size: 18px;
+   background-color: #fff;
+   border: 1px solid black;
+   border: none;
+   padding: 2.8px 15px;
+   border-radius: 20px;
+  color: #5B6647;
+
+} 
+#page9  #arrow5 h4{
+   font-family:DM Sans ;
+   font-weight:500;
+   font-size: 24px;
+   color: #fff;
+   
+}
+
+
+#page10{
+   min-height: 100vh;
+   width: 100%;
+   background-color: #fff;
+}
+#page10 #text5{
+   margin-top: 12vw;
+
+   /* background-color: #c30a0a; */
+}
+#page10 #text5 h2{
+   position: relative;
+   font-family:PP Woodland;
+   font-size: 5.5vw;
+   line-height: 6vw;
+   font-weight: 100;
+   color:#434B34;
+   text-align: center;
+
+}
+#page10 p{
+   margin-left: 30%;
+   width: 40%;
+   padding:3.5vw 7vw ;
+   font-size: 1.2vw;
+   font-weight: 400;
+   text-align: center;
+   font-family:DM Sans;
+   color:#434B34;
+   /* padding-bottom: 7vw; */
+}
+#part22{
+   position: relative;
+   height: 100vh;
+   width: 100%;
+   /* background-color: #1686cc; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#part22 #lff{
+   height: 100%;
+   width: 50%;
+   /* background-color: chocolate; */
+   display: flex;align-items:center;
+   justify-content: start;
+}
+#part22 #lff img{
+   height: 85%;
+   width: 75%;
+   object-fit: cover;
+   border-radius: 18px;
+   margin-left: 4vw;
+}
+#part22 #rtt{
+   height: 100%;
+   width: 50%;
+   /* background-color: rgb(238, 11, 113); */
+}
+
+#rtt #text6{
+   padding: 13.8vw 0vw 0vw 7.8vw;
+     display:block; 
+align-items: flex-start;
+justify-content: flex-start;
+
+   }
+   #rtt #text6 h3{
+      position: relative;
+      font-family:PP Woodland;
+      font-size: 3vw;
+      line-height: 3vw;
+      font-weight: 100;
+      letter-spacing: -1px;
+      color: #434B34;
+      /* text-align: center; */
+  
+   }
+   
+   #rtt #text6 h5{
+      /* margin-left: 30%; */
+      width: 53%;
+      padding-top: 1.7vw;
+      font-size: 1.2vw;
+      font-weight: 500;
+      font-family:DM Sans;
+      color:#4B5041;
+      /* padding-bottom: 2vw; */
+   }
+        
+#rtt #arrow6{
+   margin-left: -17vw;
+
+   position: relative;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+   margin-top: 7vw ;
+    
+}
+
+#rtt #arrow6 i{
+   margin-left: 1.7vw;
+   font-size: 18px;
+  color: #fff;
+   border: 1px solid black;
+   border: none;
+   padding: 2.8px 15px;
+   border-radius: 20px;
+   background-color: #5B6647;
+} 
+#rtt #arrow6 h4{
+   font-family:DM Sans ;
+   font-weight:500;
+   font-size: 2vw;
+   color:  #5B6647;
+
+   
+}
+#page11{
+   min-height: 100vh;
+   width: 100%;
+   background-color: #fff;
+}
+
+#page11 p{
+   margin-left: 30%;
+   width: 40%;
+   padding:3.5vw 7vw ;
+   font-size: 1.2vw;
+   font-weight: 400;
+   text-align: center;
+   font-family:DM Sans;
+   color:#434B34;
+   /* padding-bottom: 7vw; */
+}
+#pg11-part1{
+   position: relative;
+   height: 100vh;
+   width: 100%;
+   /* background-color: #1686cc; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+ #pg11-part1 #part1-lf{
+   height: 100%;
+   width: 50%;
+    /* background-color: chocolate; */
+   /* display: flex;align-items:center;
+   justify-content: start; */
+} 
+#pg11-part1 #part1-rt img{
+   height: 82%;
+   width: 73%;
+   object-fit: cover;
+   border-radius: 18px;
+   margin-right: 5.5vw;
+}
+#pg11-part1 #part1-rt{
+   height: 100%;
+   width: 50%;
+   display: flex;
+   align-items:center;
+   justify-content: flex-end;
+   /* background-color: rgb(238, 11, 113); */
+}
+
+ #part1-lf #text7{
+   padding: 9vw 0vw 0vw 13vw;
+     display:block; 
+align-items: center;
+justify-content: center;
+ /* background-color: darkgreen; */
+
+   }
+   #part1-lf  #text7 h3{
+      position: relative;
+      font-family:PP Woodland;
+      font-size: 3vw;
+      line-height: 3vw;
+      font-weight: 100;
+      letter-spacing: -1px;
+      color: #434B34;
+      /* text-align: center; */
+  
+   }
+   
+   #part1-lf  #text7 h5{
+      /* margin-left: 30%; */
+      width: 65%;
+      padding-top: 1.7vw;
+      font-size: 1.2vw;
+      font-weight: 500;
+      font-family:DM Sans;
+      color:#4B5041;
+      /* padding-bottom: 2vw; */
+   }
+        
+   #part1-lf  #arrow7{
+   margin-left: -9.2vw;
+
+   position: relative;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+   margin-top: 7vw ;
+   
+      
+    
+}
+
+#part1-lf  #arrow7 i{
+   margin-left: 1.7vw;
+   font-size: 18px;
+  color: #fff;
+   border: 1px solid black;
+   border: none;
+   padding: 2.8px 15px;
+   border-radius: 20px;
+   background-color: #5B6647;
+} 
+#part1-lf  #arrow7 h4{
+   font-family:DM Sans ;
+   font-weight:500;
+   font-size: 2vw;
+   color:  #5B6647;
+ 
+}
+#page12{
+   position: relative;
+   min-height: 100vw;
+   width: 100%;
+  
+}
+#page12 img{
+   margin-top: 10vw;
+
+   height: 120vh;
+   width: 100%;
+   object-fit: cover;
+}
+#page12 #sec{
+   margin-top:-21.6vw;
+   height:17vw;
+   width: 92%;
+   background-color:#5B6647;
+   z-index: 999;
+   border-radius: 20px;
+   margin-left:4vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /* margin: 0 5vw; */
+}
+
+    
+#page12 #sec #arrow8{
+   margin-left: -9.2vw;
+
+   position: relative;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+   /* margin-top: 7vw ; */
+    
+}
+
+#page12 #sec  #arrow8 i{
+   margin-left: 1.7vw;
+   font-size: 18px;
+   background-color: #fff;
+   border: 1px solid black;
+   border: none;
+   padding: 2.8px 15px;
+   border-radius: 20px;
+   color: #5B6647;
+} 
+#page12 #sec  #arrow8 h4{
+   font-family:DM Sans ;
+   font-weight:500;
+   font-size: 2vw;
+   color: #fff;
+
+   
+}
+#page12 #sec h2{
+   position: relative;
+   font-family:PP Woodland;
+   font-size: 4.5vw;
+   line-height: 3vw;
+   font-weight: 100;
+   letter-spacing: -1px;
+   color:#fff;
+}

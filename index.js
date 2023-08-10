@@ -231,6 +231,69 @@ tl.from("#page3 #lf #img1",{
  })
 
 
+ gsap.from("#first",{
+    opacity:0,
+    y:40,
+scrollTrigger:{
+    trigger:"#first",
+    scroller:"#main",
+    // markers:true,
+    start:"top 80%",
+    end:"top 70%",
+    scrub:2,
+}
+})
+
+gsap.from("#second",{
+    opacity:0,
+    y:40,
+scrollTrigger:{
+    trigger:"#second",
+    scroller:"#main",
+    // markers:true,
+    start:"top 85%",
+    end:"top 75%",
+    scrub:2,
+}
+})
+gsap.from("#third",{
+    opacity:0,
+    y:40,
+scrollTrigger:{
+    trigger:"#third",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 80%",
+    scrub:2,
+}
+})
+gsap.from("#forth",{
+    opacity:0,
+    y:40,
+scrollTrigger:{
+    trigger:"#forth",
+    scroller:"#main",
+    // markers:true,
+    start:"top 95%",
+    end:"top 85%",
+    scrub:2,
+}
+})
+gsap.from("#fifth",{
+    stagger:.3,
+    opacity:0,
+    y:40,
+scrollTrigger:{
+    trigger:"#fifth",
+    scroller:"#main",
+    // markers:true,
+    start:"top 100%",
+    end:"top 90%",
+    scrub:2,
+}
+})
+
  var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
@@ -244,10 +307,10 @@ tl.from("#page3 #lf #img1",{
 
 
 
-  gsap.to("#page5 #svg5 , #page5 #svg6",{
+  gsap.to("#page7 #svg5 , #page7 #svg6",{
     left:"-25vw",
     scrollTrigger:{
-        trigger:"#page5 #svg5, #page5 #svg6",
+        trigger:"#page7 #svg5, #page7 #svg6",
         scroller:"#main",
         // markers:true,
         start:"top 85%",
@@ -314,7 +377,7 @@ gsap.from("#page6  #pprt2 img",{
 scrollTrigger:{
     trigger:"#page6  #pprt2 img",
     scroller:"#main",
-    markers:true,
+    // markers:true,
     start:"top 100%",
     end:"top 97%",
     scrub:2,
@@ -343,4 +406,247 @@ gsap.to("#page6 #svg7 , #page6 #svg8",{
         end:"top -70%",
         scrub:2,
     }
+})
+
+
+
+var h2Data = document.querySelectorAll("#page7 h2")
+h2Data.forEach(function (elem) {
+var textData = elem.textContent;
+var splitedText = textData.split("")
+var clutter=""
+splitedText.forEach(function(e) {
+   clutter  += `<span>${e}</span>`
+});
+elem.innerHTML=clutter;
+});
+
+gsap.to("#page7 h2 span",{
+    color:"#434B34",
+    stagger:.1,
+scrollTrigger:{
+    trigger:"#page7 h2 span",
+    scroller:"#main",
+    // markers:true,
+    start:"top 63%",
+    end:"top -30%",
+    scrub:2,
+}
+})
+
+
+var tl2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#photoes",
+      scroller: "#main",
+    //   markers: true,
+      start: "top 90%",
+      end: "top -10%",
+      scrub: 3,
+    },
+  });
+  tl2.to("#photoes .right-img ", {
+    transform: `translateX(50%)`,
+    duration: 1,
+  },"page7-anim");
+
+  tl2.to("#photoes .left-img", {
+    transform: `translateX(-50%)`,
+    duration: 1,
+    
+  },"page7-anim");
+  tl2.from(" .center", {
+  delay:.2,
+    // transform: `translateY(50%)`,
+    opacity:0,
+  },"page7-anim");
+
+  gsap.from("#photoes #arrow4",{
+    y:90,
+    scrollTrigger: {
+        trigger: "#photoes #arrow4",
+        scroller: "#main",
+        // markers: true,
+        start: "top 105%",
+        end: "top 100%",
+        scrub: 3,}
+
+  })
+    
+
+
+
+gsap.to("#page8 #svg9 , #page8 #svg10",{
+    left:"-25vw",
+    scrollTrigger:{
+        trigger:"#page8 #svg9, #page8 #svg10",
+        scroller:"#main",
+        // markers:true,
+        start:"top 85%",
+        end:"top -70%",
+        scrub:2,
+    }
+})
+var h2Data = document.querySelectorAll("#page9 h2")
+h2Data.forEach(function (elem) {
+var textData = elem.textContent;
+var splitedText = textData.split("")
+var clutter=""
+splitedText.forEach(function(e) {
+   clutter  += `<span>${e}</span>`
+});
+elem.innerHTML=clutter;
+});
+gsap.to("#page9 h2 span",{
+    color:"#434B34",
+    stagger:.1,
+scrollTrigger:{
+    trigger:"#page9 h2 span",
+    scroller:"#main",
+    // markers:true,
+    start:"top 65%",
+    end:"top 45%",
+    scrub:2,
+}
+})
+
+
+
+gsap.from("#page9 p",{
+    y:50,
+    opacity:0,
+    
+scrollTrigger:{
+    trigger:"#page9 p",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 70%",
+    scrub:1,
+}
+})
+gsap.from("#page9 #pprt22,#page9 #pprt33",{
+    y:30,
+    opacity:0,
+    
+scrollTrigger:{
+    trigger:"#page9 #pprt22,#page9 #pprt33",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 80%",
+    scrub:1,
+}
+})
+gsap.from("#page9 #pprt11",{
+    y:30,
+    opacity:0,
+scrollTrigger:{
+    trigger:"#page9 #pprt11",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 80%",
+    scrub:1,
+}
+})
+
+gsap.from("#page9 #arrow5",{
+    y:60,
+    opacity:0,
+scrollTrigger:{
+    trigger:"#page9 #arrow5",
+    scroller:"#main",
+    // markers:true,
+    start:"top 80%",
+    end:"top 60%",
+    scrub:1,
+}
+})
+
+gsap.from("#page10 h2 ,#page10 p",{
+    y:90,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+scrollTrigger:{
+    trigger:"#page10 h2 ,#page10 p ",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 70%",
+    scrub:1,
+}
+})
+
+gsap.from("#page10 #lff",{
+    y:90,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+scrollTrigger:{
+    trigger:"#page10 #lff",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 80%",
+    scrub:1,
+}
+})
+gsap.from("#page10 #text6 h3,#page10 #text6 h5,#page10 #arrow6",{
+    y:50,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+scrollTrigger:{
+    trigger:"#page10 #text6 h3,#page10 #text6 h5,#page10 #arrow6",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 50%",
+    scrub:1,
+}
+})
+gsap.from("#page11 #part1-rt img",{
+    y:50,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+scrollTrigger:{
+    trigger:"#page11 #part1-rt img",
+    scroller:"#main",
+    // markers:true,
+    start:"top 95%",
+    end:"top 80%",
+    scrub:1,
+}
+})
+    
+gsap.from("#page11 #text7 h3,#page11 #text7 h5,#page11 #arrow7",{
+    y:50,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+scrollTrigger:{
+    trigger:"#page11 #text7 h3,#page11 #text7 h5,#page11 #arrow7",
+    scroller:"#main",
+    // markers:true,
+    start:"top 90%",
+    end:"top 50%",
+    scrub:1,
+}
+})
+gsap.from("#page12 #sec",{
+    y:50,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+scrollTrigger:{
+    trigger:"#page12 #sec",
+    scroller:"#main",
+    // markers:true,
+    start:"top 95%",
+    end:"top 50%",
+    scrub:1,
+}
 })

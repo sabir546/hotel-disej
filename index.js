@@ -307,10 +307,10 @@ scrollTrigger:{
 
 
 
-  gsap.to("#page7 #svg5 , #page7 #svg6",{
+  gsap.to("#page5 #svg5 , #page5 #svg6",{
     left:"-25vw",
     scrollTrigger:{
-        trigger:"#page7 #svg5, #page7 #svg6",
+        trigger:"#page5 #svg5, #page5 #svg6",
         scroller:"#main",
         // markers:true,
         start:"top 85%",
@@ -318,8 +318,6 @@ scrollTrigger:{
         scrub:2,
     }
 })
-
-
 
 
 var h2Data = document.querySelectorAll("#page6 h2")
@@ -498,7 +496,7 @@ splitedText.forEach(function(e) {
 elem.innerHTML=clutter;
 });
 gsap.to("#page9 h2 span",{
-    color:"#434B34",
+    color:"#fff",
     stagger:.1,
 scrollTrigger:{
     trigger:"#page9 h2 span",
@@ -539,7 +537,7 @@ scrollTrigger:{
 }
 })
 gsap.from("#page9 #pprt11",{
-    y:30,
+    y:50,
     opacity:0,
 scrollTrigger:{
     trigger:"#page9 #pprt11",
@@ -646,7 +644,8 @@ scrollTrigger:{
     scroller:"#main",
     // markers:true,
     start:"top 95%",
-    end:"top 50%",
+    end:"top 60%",
     scrub:1,
 }
 })
+
